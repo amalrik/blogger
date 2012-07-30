@@ -1,0 +1,871 @@
+  
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>blogger/app/assets/stylesheets/screen.css at master · JumpstartLab/blogger</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144.png" />
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="bBIgH9ycoX6DULrT6EbnQU4a+Vj4oQACfEn6UflY/Lc=" name="csrf-token" />
+
+    <link href="https://a248.e.akamai.net/assets.github.com/assets/github-6ccf6cea137dd44cdaadff5a0bd7fbc1ba3d1703.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="https://a248.e.akamai.net/assets.github.com/assets/github2-4ea3fe3c60826cdd2c4b23206a53f9766c0d4b16.css" media="screen" rel="stylesheet" type="text/css" />
+    
+
+
+    <script src="https://a248.e.akamai.net/assets.github.com/assets/frameworks-cda884a5a58f7a231c16c075e16bc5c1509f192b.js" type="text/javascript"></script>
+    
+    <script defer="defer" src="https://a248.e.akamai.net/assets.github.com/assets/github-51bb4f9055afda80562b32fb6dc9d6fd15bb7ecb.js" type="text/javascript"></script>
+    
+    
+
+      <link rel='permalink' href='/JumpstartLab/blogger/blob/19a1695368079603c0d35553e3c85ed087e11ab8/app/assets/stylesheets/screen.css'>
+    <meta property="og:title" content="blogger"/>
+    <meta property="og:type" content="githubog:gitrepository"/>
+    <meta property="og:url" content="https://github.com/JumpstartLab/blogger"/>
+    <meta property="og:image" content="https://a248.e.akamai.net/assets.github.com/images/gravatars/gravatar-140.png?1329275856"/>
+    <meta property="og:site_name" content="GitHub"/>
+    <meta property="og:description" content="A basic Rails project where we build a blog. Contribute to blogger development by creating an account on GitHub."/>
+
+    <meta name="description" content="A basic Rails project where we build a blog. Contribute to blogger development by creating an account on GitHub." />
+
+  <link href="https://github.com/JumpstartLab/blogger/commits/master.atom" rel="alternate" title="Recent Commits to blogger:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_in page-blob linux vis-public env-production ">
+    <div id="wrapper">
+
+    
+    
+    
+
+      <div id="header" class="true clearfix">
+        <div class="container clearfix">
+          <a class="site-logo" href="https://github.com/">
+            <!--[if IE]>
+            <img alt="GitHub" class="github-logo" src="https://a248.e.akamai.net/assets.github.com/images/modules/header/logov7.png?1323882717" />
+            <img alt="GitHub" class="github-logo-hover" src="https://a248.e.akamai.net/assets.github.com/images/modules/header/logov7-hover.png?1324325358" />
+            <![endif]-->
+            <img alt="GitHub" class="github-logo-4x" height="30" src="https://a248.e.akamai.net/assets.github.com/images/modules/header/logov7@4x.png?1337118066" />
+            <img alt="GitHub" class="github-logo-4x-hover" height="30" src="https://a248.e.akamai.net/assets.github.com/images/modules/header/logov7@4x-hover.png?1337118066" />
+          </a>
+
+
+
+              
+    <div class="topsearch  ">
+        <form accept-charset="UTF-8" action="/search" id="top_search_form" method="get">
+  <a href="/search" class="advanced-search tooltipped downwards" title="Advanced Search"><span class="mini-icon mini-icon-advanced-search"></span></a>
+  <div class="search placeholder-field js-placeholder-field">
+    <input type="text" class="search my_repos_autocompleter" id="global-search-field" name="q" results="5" spellcheck="false" autocomplete="off" data-autocomplete="my-repos-autocomplete" placeholder="Search&hellip;" data-hotkey="s" />
+    <div id="my-repos-autocomplete" class="autocomplete-results">
+      <ul class="js-navigation-container"></ul>
+    </div>
+    <input type="submit" value="Search" class="button">
+    <span class="mini-icon mini-icon-search-input"></span>
+  </div>
+  <input type="hidden" name="type" value="Everything" />
+  <input type="hidden" name="repo" value="" />
+  <input type="hidden" name="langOverride" value="" />
+  <input type="hidden" name="start_value" value="1" />
+</form>
+
+      <ul class="top-nav">
+          <li class="explore"><a href="https://github.com/explore">Explore</a></li>
+          <li><a href="https://gist.github.com">Gist</a></li>
+          <li><a href="/blog">Blog</a></li>
+        <li><a href="http://help.github.com">Help</a></li>
+      </ul>
+    </div>
+
+
+            
+
+
+  <div id="userbox">
+    <div id="user">
+      <a href="https://github.com/amalrik"><img height="20" src="https://secure.gravatar.com/avatar/29912acf4124f78d29de7a0f5adf89d0?s=140&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" width="20" /></a>
+      <a href="https://github.com/amalrik" class="name">amalrik</a>
+    </div>
+    <ul id="user-links">
+      <li>
+        <a href="/new" id="new_repo" class="tooltipped downwards" title="Create a New Repo"><span class="mini-icon mini-icon-create"></span></a>
+      </li>
+      <li>
+        <a href="/inbox/notifications" id="notifications" class="tooltipped downwards" title="Notifications">
+          <span class="mini-icon mini-icon-notifications"></span>
+        </a>
+      </li>
+      <li>
+        <a href="/settings/profile" id="account_settings"
+          class="tooltipped downwards"
+          title="Account Settings ">
+          <span class="mini-icon mini-icon-account-settings"></span>
+        </a>
+      </li>
+      <li>
+          <a href="/logout" data-method="post" id="logout" class="tooltipped downwards" title="Sign Out">
+            <span class="mini-icon mini-icon-logout"></span>
+          </a>
+      </li>
+    </ul>
+  </div>
+
+
+
+          
+        </div>
+      </div>
+
+      
+
+            <div class="site hfeed" itemscope itemtype="http://schema.org/WebPage">
+      <div class="container hentry">
+        <div class="pagehead repohead instapaper_ignore readability-menu">
+        <div class="title-actions-bar">
+          
+
+
+
+              <ul class="pagehead-actions">
+
+
+
+          <li class="js-toggler-container js-social-container watch-button-container ">
+            <span class="watch-button"><a href="/JumpstartLab/blogger/toggle_watch" class="minibutton btn-watch js-toggler-target lighter" data-remote="true" data-method="post" rel="nofollow">Watch</a><a class="social-count js-social-count" href="/JumpstartLab/blogger/watchers">3</a></span>
+            <span class="unwatch-button"><a href="/JumpstartLab/blogger/toggle_watch" class="minibutton btn-unwatch js-toggler-target lighter" data-remote="true" data-method="post" rel="nofollow">Unwatch</a><a class="social-count js-social-count" href="/JumpstartLab/blogger/watchers">3</a></span>
+          </li>
+
+              <li>
+                <a href="/JumpstartLab/blogger/fork_select" class="minibutton btn-fork js-toggler-target lighter" rel="facebox nofollow">Fork</a><a href="/JumpstartLab/blogger/network" class="social-count">6</a>
+              </li>
+
+    </ul>
+
+          <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+            <span class="repo-label"><span>public</span></span>
+            <span class="mega-icon mega-icon-public-repo"></span>
+            <span class="author vcard">
+<a href="/JumpstartLab" class="url fn" itemprop="url" rel="author">              <span itemprop="title">JumpstartLab</span>
+              </a></span> /
+            <strong><a href="/JumpstartLab/blogger" class="js-current-repository">blogger</a></strong>
+          </h1>
+        </div>
+
+          
+
+  <ul class="tabs">
+    <li><a href="/JumpstartLab/blogger" class="selected" highlight="repo_sourcerepo_downloadsrepo_commitsrepo_tagsrepo_branches">Code</a></li>
+    <li><a href="/JumpstartLab/blogger/network" highlight="repo_network">Network</a>
+    <li><a href="/JumpstartLab/blogger/pulls" highlight="repo_pulls">Pull Requests <span class='counter'>0</span></a></li>
+
+      <li><a href="/JumpstartLab/blogger/issues" highlight="repo_issues">Issues <span class='counter'>0</span></a></li>
+
+      <li><a href="/JumpstartLab/blogger/wiki" highlight="repo_wiki">Wiki</a></li>
+
+    <li><a href="/JumpstartLab/blogger/graphs" highlight="repo_graphsrepo_contributors">Graphs</a></li>
+
+
+  </ul>
+  
+<div class="frame frame-center tree-finder" style="display:none"
+      data-tree-list-url="/JumpstartLab/blogger/tree-list/19a1695368079603c0d35553e3c85ed087e11ab8"
+      data-blob-url-prefix="/JumpstartLab/blogger/blob/19a1695368079603c0d35553e3c85ed087e11ab8"
+    >
+
+  <div class="breadcrumb">
+    <span class="bold"><a href="/JumpstartLab/blogger">blogger</a></span> /
+    <input class="tree-finder-input js-navigation-enable" type="text" name="query" autocomplete="off" spellcheck="false">
+  </div>
+
+    <div class="octotip">
+      <p>
+        <a href="/JumpstartLab/blogger/dismiss-tree-finder-help" class="dismiss js-dismiss-tree-list-help" title="Hide this notice forever" rel="nofollow">Dismiss</a>
+        <span class="bold">Octotip:</span> You've activated the <em>file finder</em>
+        by pressing <span class="kbd">t</span> Start typing to filter the
+        file list. Use <span class="kbd badmono">↑</span> and
+        <span class="kbd badmono">↓</span> to navigate,
+        <span class="kbd">enter</span> to view files.
+      </p>
+    </div>
+
+  <table class="tree-browser" cellpadding="0" cellspacing="0">
+    <tr class="js-header"><th>&nbsp;</th><th>name</th></tr>
+    <tr class="js-no-results no-results" style="display: none">
+      <th colspan="2">No matching files</th>
+    </tr>
+    <tbody class="js-results-list js-navigation-container">
+    </tbody>
+  </table>
+</div>
+
+<div id="jump-to-line" style="display:none">
+  <h2>Jump to Line</h2>
+  <form accept-charset="UTF-8">
+    <input class="textfield" type="text">
+    <div class="full-button">
+      <button type="submit" class="classy">
+        Go
+      </button>
+    </div>
+  </form>
+</div>
+
+
+<div class="subnav-bar">
+
+  <ul class="actions subnav">
+    <li><a href="/JumpstartLab/blogger/tags" class="blank" highlight="repo_tags">Tags <span class="counter">0</span></a></li>
+    <li><a href="/JumpstartLab/blogger/downloads" class="blank downloads-blank" highlight="repo_downloads">Downloads <span class="counter">0</span></a></li>
+    
+  </ul>
+
+  <ul class="scope">
+    <li class="switcher">
+
+      <div class="context-menu-container js-menu-container js-context-menu">
+        <a href="#"
+           class="minibutton bigger switcher js-menu-target js-commitish-button btn-branch repo-tree"
+           data-hotkey="w"
+           data-master-branch="master"
+           data-ref="master">
+           <span><i>branch:</i> master</span>
+        </a>
+
+        <div class="context-pane commitish-context js-menu-content">
+          <a href="javascript:;" class="close js-menu-close"><span class="mini-icon mini-icon-remove-close"></span></a>
+          <div class="context-title">Switch branches/tags</div>
+          <div class="context-body pane-selector commitish-selector js-navigation-container">
+            <div class="filterbar">
+              <input type="text" id="context-commitish-filter-field" class="js-navigation-enable" placeholder="Filter branches/tags" data-filterable />
+
+              <ul class="tabs">
+                <li><a href="#" data-filter="branches" class="selected">Branches</a></li>
+                <li><a href="#" data-filter="tags">Tags</a></li>
+              </ul>
+            </div>
+
+            <div class="js-filter-tab js-filter-branches" data-filterable-for="context-commitish-filter-field" data-filterable-type=substring>
+              <div class="no-results js-not-filterable">Nothing to show</div>
+                <div class="commitish-item branch-commitish selector-item js-navigation-item js-navigation-target selected">
+                  <span class="mini-icon mini-icon-confirm"></span>
+                  <h4>
+                      <a href="/JumpstartLab/blogger/blob/master/app/assets/stylesheets/screen.css" class="js-navigation-open" data-name="master" rel="nofollow">master</a>
+                  </h4>
+                </div>
+            </div>
+
+            <div class="js-filter-tab js-filter-tags" style="display:none" data-filterable-for="context-commitish-filter-field" data-filterable-type=substring>
+              <div class="no-results js-not-filterable">Nothing to show</div>
+            </div>
+          </div>
+        </div><!-- /.commitish-context-context -->
+      </div>
+
+    </li>
+  </ul>
+
+  <ul class="subnav with-scope">
+
+    <li><a href="/JumpstartLab/blogger" class="selected" highlight="repo_source">Files</a></li>
+    <li><a href="/JumpstartLab/blogger/commits/master" highlight="repo_commits">Commits</a></li>
+    <li><a href="/JumpstartLab/blogger/branches" class="" highlight="repo_branches" rel="nofollow">Branches <span class="counter">1</span></a></li>
+  </ul>
+
+</div>
+
+  
+  
+  
+
+
+          
+
+        </div><!-- /.repohead -->
+
+        <div id="js-repo-pjax-container" data-pjax-container>
+          
+
+
+
+
+<!-- blob contrib key: blob_contributors:v21:301bd54d6fe691dbf374f466e4126b5b -->
+<!-- blob contrib frag key: views10/v8/blob_contributors:v21:301bd54d6fe691dbf374f466e4126b5b -->
+
+<!-- block_view_fragment_key: views10/v8/blob:v21:fd8b1fa7833502bda3ccbc64b97c7786 -->
+  <div id="slider">
+
+    <div class="breadcrumb" data-path="app/assets/stylesheets/screen.css/">
+      <b itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/JumpstartLab/blogger/tree/19a1695368079603c0d35553e3c85ed087e11ab8" class="js-rewrite-sha" itemprop="url"><span itemprop="title">blogger</span></a></b> / <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/JumpstartLab/blogger/tree/19a1695368079603c0d35553e3c85ed087e11ab8/app" class="js-rewrite-sha" itemscope="url"><span itemprop="title">app</span></a></span> / <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/JumpstartLab/blogger/tree/19a1695368079603c0d35553e3c85ed087e11ab8/app/assets" class="js-rewrite-sha" itemscope="url"><span itemprop="title">assets</span></a></span> / <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/JumpstartLab/blogger/tree/19a1695368079603c0d35553e3c85ed087e11ab8/app/assets/stylesheets" class="js-rewrite-sha" itemscope="url"><span itemprop="title">stylesheets</span></a></span> / <strong class="final-path">screen.css</strong> <span class="js-clippy mini-icon mini-icon-clippy " data-clipboard-text="app/assets/stylesheets/screen.css" data-copied-hint="copied!" data-copy-hint="copy to clipboard"></span>
+    </div>
+
+      
+  <div class="commit file-history-tease js-blob-contributors-content" data-path="app/assets/stylesheets/screen.css/">
+    <img class="main-avatar" height="24" src="https://secure.gravatar.com/avatar/233c279c012ebac792aaa805f966cbc7?s=140&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" width="24" />
+    <span class="author"><a href="/steveklabnik">steveklabnik</a></span>
+    <time class="js-relative-date" datetime="2012-04-12T17:26:35-07:00" title="2012-04-12 17:26:35">April 12, 2012</time>
+    <div class="commit-title">
+        <a href="/JumpstartLab/blogger/commit/872af5e585e5a629dcda5d27a4dfd58129445610" class="message">Iteration 0</a>
+    </div>
+
+    <div class="participation">
+      <p class="quickstat"><a href="#blob_contributors_box" rel="facebox"><strong>1</strong> contributor</a></p>
+      
+    </div>
+    <div id="blob_contributors_box" style="display:none">
+      <h2>Users on GitHub who have contributed to this file</h2>
+      <ul class="facebox-user-list">
+        <li>
+          <img height="24" src="https://secure.gravatar.com/avatar/233c279c012ebac792aaa805f966cbc7?s=140&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" width="24" />
+          <a href="/steveklabnik">steveklabnik</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+    <div class="frames">
+      <div class="frame frame-center" data-path="app/assets/stylesheets/screen.css/" data-permalink-url="/JumpstartLab/blogger/blob/19a1695368079603c0d35553e3c85ed087e11ab8/app/assets/stylesheets/screen.css" data-title="blogger/app/assets/stylesheets/screen.css at master · JumpstartLab/blogger · GitHub" data-type="blob">
+
+        <div id="files" class="bubble">
+          <div class="file">
+            <div class="meta">
+              <div class="info">
+                <span class="icon"><b class="mini-icon mini-icon-text-file"></b></span>
+                <span class="mode" title="File Mode">file</span>
+                  <span>3 lines (3 sloc)</span>
+                <span>15.498 kb</span>
+              </div>
+              <ul class="button-group actions">
+                  <li>
+                    <a class="grouped-button file-edit-link minibutton bigger lighter js-rewrite-sha" href="/JumpstartLab/blogger/edit/19a1695368079603c0d35553e3c85ed087e11ab8/app/assets/stylesheets/screen.css" data-method="post" rel="nofollow" data-hotkey="e">Edit</a>
+                  </li>
+                <li>
+                  <a href="/JumpstartLab/blogger/raw/master/app/assets/stylesheets/screen.css" class="minibutton btn-raw grouped-button bigger lighter" id="raw-url">Raw</a>
+                </li>
+                  <li>
+                    <a href="/JumpstartLab/blogger/blame/master/app/assets/stylesheets/screen.css" class="minibutton btn-blame grouped-button bigger lighter">Blame</a>
+                  </li>
+                <li>
+                  <a href="/JumpstartLab/blogger/commits/master/app/assets/stylesheets/screen.css" class="minibutton btn-history grouped-button bigger lighter" rel="nofollow">History</a>
+                </li>
+              </ul>
+            </div>
+              <div class="data type-css">
+      <table cellpadding="0" cellspacing="0" class="lines">
+        <tr>
+          <td>
+            <pre class="line_numbers"><span id="L1" rel="#L1">1</span>
+<span id="L2" rel="#L2">2</span>
+<span id="L3" rel="#L3">3</span>
+</pre>
+          </td>
+          <td width="100%">
+                <div class="highlight"><pre><div class='line' id='LC1'>@charset &quot;UTF-8&quot;;html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}body{line-height:1;color:black;background:white}ol,ul{list-style:none}table{border-collapse:separate;border-spacing:0;vertical-align:middle}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:&quot;&quot; &quot;&quot;}q:before,q:after,blockquote:before,blockquote:after{content:&quot;&quot;}a img{border:none}.fancy-button-reset-base-class,input[type=submit]{font-family:&quot;Lucida Grande&quot;,Lucida,Arial,sans-serif;background:url('/images/button_bg.png?1301401396') repeat-x bottom left;margin:0;width:auto;overflow:visible;display:inline-block;cursor:pointer;text-decoration:none;border-style:solid;font-weight:bold}.fancy-button-reset-base-class::-moz-focus-inner,input[type=submit]::-moz-focus-inner{border:none;padding:0}.fancy-button-reset-base-class:focus,input[type=submit]:focus{outline:none}article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{margin:0;padding:0;border:0;outline:0;display:block}.headings,h1{font-family:&quot;Yanone Kaffeesatz&quot;, sans}html{background:#d3dd8a;-moz-background-size:80px 80px;-webkit-background-size:80px 80px;-o-background-size:80px 80px;background-size:80px 80px;background-image:-webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(25%, rgba(255,255,255,0.1)), color-stop(25%, rgba(255,255,255,0)), color-stop(50%, rgba(255,255,255,0)), color-stop(50%, rgba(255,255,255,0.1)), color-stop(75%, rgba(255,255,255,0.1)), color-stop(75%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));background-image:-moz-linear-gradient(left top, rgba(255,255,255,0.1) 25%,rgba(255,255,255,0) 25%,rgba(255,255,255,0) 50%,rgba(255,255,255,0.1) 50%,rgba(255,255,255,0.1) 75%,rgba(255,255,255,0) 75%,rgba(255,255,255,0));background-image:linear-gradient(left top, rgba(255,255,255,0.1) 25%,rgba(255,255,255,0) 25%,rgba(255,255,255,0) 50%,rgba(255,255,255,0.1) 50%,rgba(255,255,255,0.1) 75%,rgba(255,255,255,0) 75%,rgba(255,255,255,0))}body{font-family:&quot;Helvetica Neue&quot;, Helvetica, Arial, sans;background:#fff;margin:50px auto 30px;color:#2d4159;padding:20px;width:85%;min-width:600px;max-width:1250px;min-height:280px;position:relative;line-height:1.25em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;-moz-border-radius:6px;-webkit-border-radius:6px;-o-border-radius:6px;-ms-border-radius:6px;-khtml-border-radius:6px;border-radius:6px;-moz-background-clip:padding;-webkit-background-clip:padding;-o-background-clip:padding-box;-ms-background-clip:padding-box;-khtml-background-clip:padding-box;background-clip:padding-box}body:before{content:&quot; &quot;;z-index:-2;position:absolute;left:-4px;right:8px;top:8px;height:260px;background:#2b445c;-moz-border-radius:6px;-webkit-border-radius:6px;-o-border-radius:6px;-ms-border-radius:6px;-khtml-border-radius:6px;border-radius:6px;-moz-box-shadow:rgba(0, 0, 0, 0.15) -2px 3px 3px;-webkit-box-shadow:rgba(0, 0, 0, 0.15) -2px 3px 3px;-o-box-shadow:rgba(0, 0, 0, 0.15) -2px 3px 3px;box-shadow:rgba(0, 0, 0, 0.15) -2px 3px 3px;-moz-background-clip:padding;-webkit-background-clip:padding;-o-background-clip:padding-box;-ms-background-clip:padding-box;-khtml-background-clip:padding-box;background-clip:padding-box;-moz-transform:rotate(-2deg);-webkit-transform:rotate(-2deg);-o-transform:rotate(-2deg);-ms-transform:rotate(-2deg);transform:rotate(-2deg)}body:after{content:&quot; &quot;;position:absolute;top:0;bottom:0;left:0;right:0;bottom:2px;-moz-border-radius:6px;-webkit-border-radius:6px;-o-border-radius:6px;-ms-border-radius:6px;-khtml-border-radius:6px;border-radius:6px;background:#000;z-index:-1;-moz-box-shadow:rgba(0, 0, 0, 0.3) 0 2px 5px 1px;-webkit-box-shadow:rgba(0, 0, 0, 0.3) 0 2px 5px 1px;-o-box-shadow:rgba(0, 0, 0, 0.3) 0 2px 5px 1px;box-shadow:rgba(0, 0, 0, 0.3) 0 2px 5px 1px}a{color:#2d4159}a:hover{color:#233245}p.flash{-moz-box-shadow:rgba(0, 0, 0, 0.5) 0 1px 3px;-webkit-box-shadow:rgba(0, 0, 0, 0.5) 0 1px 3px;-o-box-shadow:rgba(0, 0, 0, 0.5) 0 1px 3px;box-shadow:rgba(0, 0, 0, 0.5) 0 1px 3px;-moz-border-radius-bottomleft:6px;-webkit-border-bottom-left-radius:6px;-o-border-bottom-left-radius:6px;-ms-border-bottom-left-radius:6px;-khtml-border-bottom-left-radius:6px;border-bottom-left-radius:6px;-moz-border-radius-bottomright:6px;-webkit-border-bottom-right-radius:6px;-o-border-bottom-right-radius:6px;-ms-border-bottom-right-radius:6px;-khtml-border-bottom-right-radius:6px;border-bottom-right-radius:6px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0,0,0,0.4)), color-stop(100%, rgba(0,0,0,0.6)));background-image:-moz-linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6));background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6));border:3px solid rgba(255, 255, 255, 0.5);-moz-background-clip:padding;-webkit-background-clip:padding;-o-background-clip:padding-box;-ms-background-clip:padding-box;-khtml-background-clip:padding-box;background-clip:padding-box;text-shadow:rgba(0, 0, 0, 0.6) 0 -1px;color:#fff;margin:0 auto;position:absolute;top:-51px;left:0;padding:.4em .8em;width:100%;text-align:center;border-top:0}p.flash:empty{height:0px;overflow:hidden;padding:0;border-width:0;-moz-box-shadow:none;-webkit-box-shadow:none;-o-box-shadow:none;box-shadow:none;background:none}h1{-moz-border-radius-topleft:6px;-webkit-border-top-left-radius:6px;-o-border-top-left-radius:6px;-ms-border-top-left-radius:6px;-khtml-border-top-left-radius:6px;border-top-left-radius:6px;-moz-border-radius-topright:6px;-webkit-border-top-right-radius:6px;-o-border-top-right-radius:6px;-ms-border-top-right-radius:6px;-khtml-border-top-right-radius:6px;border-top-right-radius:6px;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #42678d), color-stop(100%, #223447));background-image:-moz-linear-gradient(#42678d,#223447);background-image:linear-gradient(#42678d,#223447);-moz-box-shadow:rgba(255, 255, 255, 0.15) 0 1px inset, white 0 1px;-webkit-box-shadow:rgba(255, 255, 255, 0.15) 0 1px inset, white 0 1px;-o-box-shadow:rgba(255, 255, 255, 0.15) 0 1px inset, white 0 1px;box-shadow:rgba(255, 255, 255, 0.15) 0 1px inset, white 0 1px;margin:-20px -20px 15px;padding:20px;padding-right:180px;line-height:1em;font-weight:normal;color:#fff;position:relative;text-shadow:#192836 0 -2px;font-size:2.5em}h1:after{content:&quot; &quot;;position:absolute;left:0;right:0;height:15px;bottom:-16px;border-top:1px solid #e5e5e5;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(170,170,170,0.5)), color-stop(100%, rgba(255,255,255,0)));background-image:-moz-linear-gradient(rgba(170,170,170,0.5),rgba(255,255,255,0));background-image:linear-gradient(rgba(170,170,170,0.5),rgba(255,255,255,0));z-index:1}h2,h3,h4{color:#2d4159;font-size:1.3em;line-height:1.5em;margin:.2em 0 .5em}.comment{font-size:.9em;border-top:1px solid #ddd;background:#f5f5f5;padding:1em 0;border-bottom:1px dashed #ddd;color:#6c7c9a}.comment p{padding-left:12px;border-left:5px solid rgba(45, 65, 89, 0.5)}.comment p:first-child{font-weight:bold;color:#2d4159;padding-left:0;border:0;padding-bottom:1em}.comment + .comment{border-top:none}.comment + h3,.comment + h4{margin:0 0 .5em}.comment:nth-last-of-type(1){border-bottom:1px solid #ddd;margin-bottom:2em}h1,h2,h3,h4,h5,h6{font-weight:bold}.top-button,a.new_article,.article_actions a[href$='edit'],.article_actions a[data-method='delete']{position:absolute;top:26px;right:20px;display:inline-block;padding:4px 11px;font-size:.9em;-moz-box-shadow:rgba(255, 255, 255, 0.4) 0 -1px inset;-webkit-box-shadow:rgba(255, 255, 255, 0.4) 0 -1px inset;-o-box-shadow:rgba(255, 255, 255, 0.4) 0 -1px inset;box-shadow:rgba(255, 255, 255, 0.4) 0 -1px inset;-moz-border-radius:1.2em;-webkit-border-radius:1.2em;-o-border-radius:1.2em;-ms-border-radius:1.2em;-khtml-border-radius:1.2em;border-radius:1.2em;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #cccccc));background-image:-moz-linear-gradient(#ffffff,#cccccc);background-image:linear-gradient(#ffffff,#cccccc);text-shadow:#fff 0 1px;color:#999999;text-decoration:none}.top-button:hover,a.new_article:hover,.article_actions a[href$='edit']:hover,.article_actions a[data-method='delete']:hover{color:#555}.top-button:active,a.new_article:active,.article_actions a[href$='edit']:active,.article_actions a[data-method='delete']:active{background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d9d9d9), color-stop(100%, #f5f5f5));background-image:-moz-linear-gradient(#d9d9d9,#f5f5f5);background-image:linear-gradient(#d9d9d9,#f5f5f5)}#sidebar + ul{padding-right:180px}#sidebar + ul li{padding-right:30px}#sidebar + ul:after{position:absolute;right:180px;top:0;bottom:0;content:&quot; &quot;;width:1px;background:#e5e5e5}#articles{margin:-15px -20px -20px;padding:0 20px 0;min-width:550px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;position:relative;-moz-border-radius-bottomleft:6px;-webkit-border-bottom-left-radius:6px;-o-border-bottom-left-radius:6px;-ms-border-bottom-left-radius:6px;-khtml-border-bottom-left-radius:6px;border-bottom-left-radius:6px;-moz-border-radius-bottomright:6px;-webkit-border-bottom-right-radius:6px;-o-border-bottom-right-radius:6px;-ms-border-bottom-right-radius:6px;-khtml-border-bottom-right-radius:6px;border-bottom-right-radius:6px;border-right:1px solid #e2e2e2}#articles li{border-bottom:1px dashed #e5e5e5;padding:1em 0 .8em;margin-right:20px;font-size:1.2em;position:relative}#articles li:last-child{-moz-border-radius-bottomleft:6px;-webkit-border-bottom-left-radius:6px;-o-border-bottom-left-radius:6px;-ms-border-bottom-left-radius:6px;-khtml-border-bottom-left-radius:6px;border-bottom-left-radius:6px;border-bottom:0}#articles li &gt; a:first-child{font-weight:bold;display:block;color:#2d4159;padding-bottom:.1em}#articles .actions{border-left:1px dotted #ddd;padding-left:8px;margin-left:3px;line-height:1em;position:relative;top:2px}#articles .actions a{-ms-filter:&quot;progid:DXImageTransform.Microsoft.Alpha(Opacity=20)&quot;;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=20);opacity:0.2}#articles .actions a:hover{-ms-filter:&quot;progid:DXImageTransform.Microsoft.Alpha(Opacity=40)&quot;;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=40);opacity:0.4}#articles .tag_list{display:inline-block;font-size:.8em;padding-top:.5em;color:#999}.article_actions{border-bottom:1px dashed #ddd;margin-bottom:.7em;padding-bottom:.7em;font-size:.9em;overflow:hidden;*zoom:1;text-align:right}.article_actions a{float:left;color:#999999}.article_actions a:hover img{-ms-filter:&quot;progid:DXImageTransform.Microsoft.Alpha(Opacity=60)&quot;;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=60);opacity:0.6}.article_actions img{-ms-filter:&quot;progid:DXImageTransform.Microsoft.Alpha(Opacity=20)&quot;;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=20);opacity:0.2;position:relative;top:2px}.article_actions a[href$='edit'],.article_actions a[data-method='delete']{text-decoration:none;float:none;margin-left:.5em;padding:4px 12px 3px 8px}.article_actions a[data-method='delete']{right:90px}p.tag_list{border-top:1px dashed #ddd;margin:1em 0;padding-top:.5em;font-size:.9em;color:#999}#sidebar{font-weight:bold;width:150px;padding:15px 10px;float:right;margin:-15px -20px 0 0;position:relative;z-index:1}#sidebar ul{margin:.5em 0;font-weight:normal}#sidebar ul a{color:#6c7c9a}.input,form input[type=text],form textarea{width:100%;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;-moz-border-radius:4px;-webkit-border-radius:4px;-o-border-radius:4px;-ms-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;padding:.3em .4em;border:1px solid #ccc;background-color:#f5f5f5;color:#1f2d3e;font-size:1.3em}.input:focus,form input[type=text]:focus,form textarea:focus{outline:0;-moz-box-shadow:rgba(129, 177, 223, 0.7) 0 0 5px 1px inset;-webkit-box-shadow:rgba(129, 177, 223, 0.7) 0 0 5px 1px inset;-o-box-shadow:rgba(129, 177, 223, 0.7) 0 0 5px 1px inset;box-shadow:rgba(129, 177, 223, 0.7) 0 0 5px 1px inset;border-color:#81b1df;background-color:#fff}form input[type=text]{margin:0}form p{padding:0;margin-bottom:.6em}form label{color:#6c7c9a;font-size:.9em;font-weight:bold;line-height:1.5em;padding-bottom:.2em;display:inline-block;text-transform:uppercase}form textarea{height:12em;font-size:1.1em}input[type=submit]{-moz-border-radius:6px;-webkit-border-radius:6px;-o-border-radius:6px;-ms-border-radius:6px;-khtml-border-radius:6px;border-radius:6px;font-size:18px;line-height:1.2em;padding:0.3em 1em;border-width:1px;background-color:#134e89;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #81a2c3), color-stop(10%, #4b749e), color-stop(50%, #2d4660), color-stop(50%, #283f55), color-stop(100%, #395878));background-image:-moz-linear-gradient(#81a2c3,#4b749e 10%,#2d4660 50%,#283f55 50%,#395878);background-image:linear-gradient(#81a2c3,#4b749e 10%,#2d4660 50%,#283f55 50%,#395878);border-color:#192836;text-shadow:#030e19 0px 1px 1px;-moz-box-shadow:rgba(255, 255, 255, 0.306) 0 0 0.1em 1px inset;-webkit-box-shadow:rgba(255, 255, 255, 0.306) 0 0 0.1em 1px inset;-o-box-shadow:rgba(255, 255, 255, 0.306) 0 0 0.1em 1px inset;box-shadow:rgba(255, 255, 255, 0.306) 0 0 0.1em 1px inset;-moz-background-clip:padding;-webkit-background-clip:padding;-o-background-clip:padding-box;-ms-background-clip:padding-box;-khtml-background-clip:padding-box;background-clip:padding-box;font-size:1.2em}input[type=submit],input[type=submit]:visited{color:#fff}input[type=submit]:hover,input[type=submit]:focus{background-color:#11467c;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #769bbf), color-stop(10%, #466d94), color-stop(50%, #283f55), color-stop(50%, #23374b), color-stop(100%, #34516d));background-image:-moz-linear-gradient(#769bbf,#466d94 10%,#283f55 50%,#23374b 50%,#34516d);background-image:linear-gradient(#769bbf,#466d94 10%,#283f55 50%,#23374b 50%,#34516d);border-color:#15202c;text-shadow:#02070c 0px 1px 1px}input[type=submit]:hover,input[type=submit]:hover:visited,input[type=submit]:focus,input[type=submit]:focus:visited{color:#fff}input[type=submit]:active{background-color:#0f3f6e;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #283f55), color-stop(30%, #2b445c), color-stop(50%, #253a4e), color-stop(50%, #203244), color-stop(100%, #355371));background-image:-moz-linear-gradient(#283f55,#2b445c 30%,#253a4e 50%,#203244 50%,#355371);background-image:linear-gradient(#283f55,#2b445c 30%,#253a4e 50%,#203244 50%,#355371);border-color:#101821;text-shadow:#000 0px -1px -1px;-moz-box-shadow:#192836 0 0.08em 0.2em 1px inset;-webkit-box-shadow:#192836 0 0.08em 0.2em 1px inset;-o-box-shadow:#192836 0 0.08em 0.2em 1px inset;box-shadow:#192836 0 0.08em 0.2em 1px inset}input[type=submit]:active,input[type=submit]:active:visited{color:#fff}</div><div class='line' id='LC2'>div.field_with_errors label{color: red; font-weight:bold}</div><div class='line' id='LC3'>div.field_with_errors input{border: 3px solid red}</div></pre></div>
+          </td>
+        </tr>
+      </table>
+  </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+<div class="frame frame-loading large-loading-area" style="display:none;" data-tree-list-url="/JumpstartLab/blogger/tree-list/19a1695368079603c0d35553e3c85ed087e11ab8" data-blob-url-prefix="/JumpstartLab/blogger/blob/19a1695368079603c0d35553e3c85ed087e11ab8">
+  <img src="https://a248.e.akamai.net/assets.github.com/images/spinners/octocat-spinner-64.gif?1329872007" height="64" width="64">
+</div>
+
+        </div>
+      </div>
+      <div class="context-overlay"></div>
+    </div>
+
+      <div id="footer-push"></div><!-- hack for sticky footer -->
+    </div><!-- end of wrapper - hack for sticky footer -->
+
+      <!-- footer -->
+      <div id="footer" >
+        
+  <div class="upper_footer">
+     <div class="container clearfix">
+
+       <!--[if IE]><h4 id="blacktocat_ie">GitHub Links</h4><![endif]-->
+       <![if !IE]><h4 id="blacktocat">GitHub Links</h4><![endif]>
+
+       <ul class="footer_nav">
+         <h4>GitHub</h4>
+         <li><a href="https://github.com/about">About</a></li>
+         <li><a href="https://github.com/blog">Blog</a></li>
+         <li><a href="https://github.com/features">Features</a></li>
+         <li><a href="https://github.com/contact">Contact &amp; Support</a></li>
+         <li><a href="https://github.com/training">Training</a></li>
+         <li><a href="http://enterprise.github.com/">GitHub Enterprise</a></li>
+         <li><a href="http://status.github.com/">Site Status</a></li>
+       </ul>
+
+       <ul class="footer_nav">
+         <h4>Clients</h4>
+         <li><a href="http://mac.github.com/">GitHub for Mac</a></li>
+         <li><a href="http://windows.github.com/">GitHub for Windows</a></li>
+         <li><a href="http://eclipse.github.com/">GitHub for Eclipse</a></li>
+         <li><a href="http://mobile.github.com/">GitHub Mobile Apps</a></li>
+       </ul>
+
+       <ul class="footer_nav">
+         <h4>Tools</h4>
+         <li><a href="http://get.gaug.es/">Gauges: Web analytics</a></li>
+         <li><a href="http://speakerdeck.com">Speaker Deck: Presentations</a></li>
+         <li><a href="https://gist.github.com">Gist: Code snippets</a></li>
+
+         <h4 class="second">Extras</h4>
+         <li><a href="http://jobs.github.com/">Job Board</a></li>
+         <li><a href="http://shop.github.com/">GitHub Shop</a></li>
+         <li><a href="http://octodex.github.com/">The Octodex</a></li>
+       </ul>
+
+       <ul class="footer_nav">
+         <h4>Documentation</h4>
+         <li><a href="http://help.github.com/">GitHub Help</a></li>
+         <li><a href="http://developer.github.com/">Developer API</a></li>
+         <li><a href="http://github.github.com/github-flavored-markdown/">GitHub Flavored Markdown</a></li>
+         <li><a href="http://pages.github.com/">GitHub Pages</a></li>
+       </ul>
+
+     </div><!-- /.site -->
+  </div><!-- /.upper_footer -->
+
+<div class="lower_footer">
+  <div class="container clearfix">
+    <!--[if IE]><div id="legal_ie"><![endif]-->
+    <![if !IE]><div id="legal"><![endif]>
+      <ul>
+          <li><a href="https://github.com/site/terms">Terms of Service</a></li>
+          <li><a href="https://github.com/site/privacy">Privacy</a></li>
+          <li><a href="https://github.com/security">Security</a></li>
+      </ul>
+
+      <p>&copy; 2012 <span title="0.09906s from fe12.rs.github.com">GitHub</span> Inc. All rights reserved.</p>
+    </div><!-- /#legal or /#legal_ie-->
+
+      <div class="sponsor">
+        <a href="http://www.rackspace.com" class="logo">
+          <img alt="Dedicated Server" height="36" src="https://a248.e.akamai.net/assets.github.com/images/modules/footer/rackspaces_logo.png?1329521040" width="38" />
+        </a>
+        Powered by the <a href="http://www.rackspace.com ">Dedicated
+        Servers</a> and<br/> <a href="http://www.rackspace.com/cloud">Cloud
+        Computing</a> of Rackspace Hosting<span>&reg;</span>
+      </div>
+  </div><!-- /.site -->
+</div><!-- /.lower_footer -->
+
+      </div><!-- /#footer -->
+
+    
+
+<div id="keyboard_shortcuts_pane" class="instapaper_ignore readability-extra" style="display:none">
+  <h2>Keyboard Shortcuts <small><a href="#" class="js-see-all-keyboard-shortcuts">(see all)</a></small></h2>
+
+  <div class="columns threecols">
+    <div class="column first">
+      <h3>Site wide shortcuts</h3>
+      <dl class="keyboard-mappings">
+        <dt>s</dt>
+        <dd>Focus site search</dd>
+      </dl>
+      <dl class="keyboard-mappings">
+        <dt>?</dt>
+        <dd>Bring up this help dialog</dd>
+      </dl>
+    </div><!-- /.column.first -->
+
+    <div class="column middle" style='display:none'>
+      <h3>Commit list</h3>
+      <dl class="keyboard-mappings">
+        <dt>j</dt>
+        <dd>Move selection down</dd>
+      </dl>
+      <dl class="keyboard-mappings">
+        <dt>k</dt>
+        <dd>Move selection up</dd>
+      </dl>
+      <dl class="keyboard-mappings">
+        <dt>c <em>or</em> o <em>or</em> enter</dt>
+        <dd>Open commit</dd>
+      </dl>
+      <dl class="keyboard-mappings">
+        <dt>y</dt>
+        <dd>Expand URL to its canonical form</dd>
+      </dl>
+    </div><!-- /.column.first -->
+
+    <div class="column last js-hidden-pane" style='display:none'>
+      <h3>Pull request list</h3>
+      <dl class="keyboard-mappings">
+        <dt>j</dt>
+        <dd>Move selection down</dd>
+      </dl>
+      <dl class="keyboard-mappings">
+        <dt>k</dt>
+        <dd>Move selection up</dd>
+      </dl>
+      <dl class="keyboard-mappings">
+        <dt>o <em>or</em> enter</dt>
+        <dd>Open issue</dd>
+      </dl>
+      <dl class="keyboard-mappings">
+        <dt><span class="platform-mac">⌘</span><span class="platform-other">ctrl</span> <em>+</em> enter</dt>
+        <dd>Submit comment</dd>
+      </dl>
+    </div><!-- /.columns.last -->
+
+  </div><!-- /.columns.equacols -->
+
+  <div class="js-hidden-pane" style='display:none'>
+    <div class="rule"></div>
+
+    <h3>Issues</h3>
+
+    <div class="columns threecols">
+      <div class="column first">
+        <dl class="keyboard-mappings">
+          <dt>j</dt>
+          <dd>Move selection down</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>k</dt>
+          <dd>Move selection up</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>x</dt>
+          <dd>Toggle selection</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>o <em>or</em> enter</dt>
+          <dd>Open issue</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt><span class="platform-mac">⌘</span><span class="platform-other">ctrl</span> <em>+</em> enter</dt>
+          <dd>Submit comment</dd>
+        </dl>
+      </div><!-- /.column.first -->
+      <div class="column last">
+        <dl class="keyboard-mappings">
+          <dt>c</dt>
+          <dd>Create issue</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>l</dt>
+          <dd>Create label</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>i</dt>
+          <dd>Back to inbox</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>u</dt>
+          <dd>Back to issues</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>/</dt>
+          <dd>Focus issues search</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+
+  <div class="js-hidden-pane" style='display:none'>
+    <div class="rule"></div>
+
+    <h3>Issues Dashboard</h3>
+
+    <div class="columns threecols">
+      <div class="column first">
+        <dl class="keyboard-mappings">
+          <dt>j</dt>
+          <dd>Move selection down</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>k</dt>
+          <dd>Move selection up</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>o <em>or</em> enter</dt>
+          <dd>Open issue</dd>
+        </dl>
+      </div><!-- /.column.first -->
+    </div>
+  </div>
+
+  <div class="js-hidden-pane" style='display:none'>
+    <div class="rule"></div>
+
+    <h3>Network Graph</h3>
+    <div class="columns equacols">
+      <div class="column first">
+        <dl class="keyboard-mappings">
+          <dt><span class="badmono">←</span> <em>or</em> h</dt>
+          <dd>Scroll left</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt><span class="badmono">→</span> <em>or</em> l</dt>
+          <dd>Scroll right</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt><span class="badmono">↑</span> <em>or</em> k</dt>
+          <dd>Scroll up</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt><span class="badmono">↓</span> <em>or</em> j</dt>
+          <dd>Scroll down</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>t</dt>
+          <dd>Toggle visibility of head labels</dd>
+        </dl>
+      </div><!-- /.column.first -->
+      <div class="column last">
+        <dl class="keyboard-mappings">
+          <dt>shift <span class="badmono">←</span> <em>or</em> shift h</dt>
+          <dd>Scroll all the way left</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>shift <span class="badmono">→</span> <em>or</em> shift l</dt>
+          <dd>Scroll all the way right</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>shift <span class="badmono">↑</span> <em>or</em> shift k</dt>
+          <dd>Scroll all the way up</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>shift <span class="badmono">↓</span> <em>or</em> shift j</dt>
+          <dd>Scroll all the way down</dd>
+        </dl>
+      </div><!-- /.column.last -->
+    </div>
+  </div>
+
+  <div class="js-hidden-pane" >
+    <div class="rule"></div>
+    <div class="columns threecols">
+      <div class="column first js-hidden-pane" >
+        <h3>Source Code Browsing</h3>
+        <dl class="keyboard-mappings">
+          <dt>t</dt>
+          <dd>Activates the file finder</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>l</dt>
+          <dd>Jump to line</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>w</dt>
+          <dd>Switch branch/tag</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>y</dt>
+          <dd>Expand URL to its canonical form</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+
+  <div class="js-hidden-pane" style='display:none'>
+    <div class="rule"></div>
+    <div class="columns threecols">
+      <div class="column first">
+        <h3>Browsing Commits</h3>
+        <dl class="keyboard-mappings">
+          <dt><span class="platform-mac">⌘</span><span class="platform-other">ctrl</span> <em>+</em> enter</dt>
+          <dd>Submit comment</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>escape</dt>
+          <dd>Close form</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>p</dt>
+          <dd>Parent commit</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>o</dt>
+          <dd>Other parent commit</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+
+  <div class="js-hidden-pane" style='display:none'>
+    <div class="rule"></div>
+    <h3>Notifications</h3>
+
+    <div class="columns threecols">
+      <div class="column first">
+        <dl class="keyboard-mappings">
+          <dt>j</dt>
+          <dd>Move selection down</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>k</dt>
+          <dd>Move selection up</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>o <em>or</em> enter</dt>
+          <dd>Open notification</dd>
+        </dl>
+      </div><!-- /.column.first -->
+
+      <div class="column second">
+        <dl class="keyboard-mappings">
+          <dt>e <em>or</em> shift i <em>or</em> y</dt>
+          <dd>Mark as read</dd>
+        </dl>
+        <dl class="keyboard-mappings">
+          <dt>shift m</dt>
+          <dd>Mute thread</dd>
+        </dl>
+      </div><!-- /.column.first -->
+    </div>
+  </div>
+
+</div>
+
+    <div id="markdown-help" class="instapaper_ignore readability-extra">
+  <h2>Markdown Cheat Sheet</h2>
+
+  <div class="cheatsheet-content">
+
+  <div class="mod">
+    <div class="col">
+      <h3>Format Text</h3>
+      <p>Headers</p>
+      <pre>
+# This is an &lt;h1&gt; tag
+## This is an &lt;h2&gt; tag
+###### This is an &lt;h6&gt; tag</pre>
+     <p>Text styles</p>
+     <pre>
+*This text will be italic*
+_This will also be italic_
+**This text will be bold**
+__This will also be bold__
+
+*You **can** combine them*
+</pre>
+    </div>
+    <div class="col">
+      <h3>Lists</h3>
+      <p>Unordered</p>
+      <pre>
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b</pre>
+     <p>Ordered</p>
+     <pre>
+1. Item 1
+2. Item 2
+3. Item 3
+   * Item 3a
+   * Item 3b</pre>
+    </div>
+    <div class="col">
+      <h3>Miscellaneous</h3>
+      <p>Images</p>
+      <pre>
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+</pre>
+     <p>Links</p>
+     <pre>
+http://github.com - automatic!
+[GitHub](http://github.com)</pre>
+<p>Blockquotes</p>
+     <pre>
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+</pre>
+    </div>
+  </div>
+  <div class="rule"></div>
+
+  <h3>Code Examples in Markdown</h3>
+  <div class="col">
+      <p>Syntax highlighting with <a href="http://github.github.com/github-flavored-markdown/" title="GitHub Flavored Markdown" target="_blank">GFM</a></p>
+      <pre>
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```</pre>
+    </div>
+    <div class="col">
+      <p>Or, indent your code 4 spaces</p>
+      <pre>
+Here is a Python code example
+without syntax highlighting:
+
+    def foo:
+      if not bar:
+        return true</pre>
+    </div>
+    <div class="col">
+      <p>Inline code for comments</p>
+      <pre>
+I think you should use an
+`&lt;addr&gt;` element here instead.</pre>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+    <div id="ajax-error-message">
+      <span class="mini-icon mini-icon-exclamation"></span>
+      Something went wrong with that request. Please try again.
+      <a href="#" class="ajax-error-dismiss">Dismiss</a>
+    </div>
+
+    <div id="logo-popup">
+      <h2>Looking for the GitHub logo?</h2>
+      <ul>
+        <li>
+          <h4>GitHub Logo</h4>
+          <a href="http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip"><img alt="Github_logo" src="https://a248.e.akamai.net/assets.github.com/images/modules/about_page/github_logo.png?1315937721" /></a>
+          <a href="http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip" class="minibutton btn-download download">Download</a>
+        </li>
+        <li>
+          <h4>The Octocat</h4>
+          <a href="http://github-media-downloads.s3.amazonaws.com/Octocats.zip"><img alt="Octocat" src="https://a248.e.akamai.net/assets.github.com/images/modules/about_page/octocat.png?1315937721" /></a>
+          <a href="http://github-media-downloads.s3.amazonaws.com/Octocats.zip" class="minibutton btn-download download">Download</a>
+        </li>
+      </ul>
+    </div>
+
+    
+    <span id='server_response_time' data-time='0.10186' data-host='fe12'></span>
+  </body>
+</html>
+
