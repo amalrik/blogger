@@ -31,6 +31,6 @@ class ArticlesController < ApplicationController
     @article = Article.find(params[:id])
     @article.update_attributes(params[:article])
 
-    redirect_to_article_path(@article)
+    redirect_to article_path(@article)
   end
 end
