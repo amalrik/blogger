@@ -1,0 +1,18 @@
+<h1>Login</h1>
+  <% form_tag(author_sessions_path, :method => :post) do %>
+
+  <p>
+    username<br />
+    <%= text_field_tag "username" %>
+  </p>
+  <p>
+    password<br />
+    <%= text_field_tag "password"%>
+  </p>
+  <p>
+    <%= submit_tag 'Submit' %>
+  </p>
+  <% end %>  
+
+  <%= link_to 'Back', articles_path %>
+
