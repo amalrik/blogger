@@ -7,6 +7,7 @@ Blogger::Application.routes.draw do
   resources :articles
 
   resources :author_sessions
+  resources :authors
 
   match 'login'  => 'author_sessions#new',     :as => :login
   match 'logout' => 'author_sessions#destroy', :as => :logout
