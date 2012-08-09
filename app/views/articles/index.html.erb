@@ -3,8 +3,9 @@
 <ul>
   <% @articles.each do |article| %>
     <li>
-    <%= link_to article.title, article_path(article),
+    <%= link_to article.title,  article_path(article),
         :class => 'article_title', :id => "article_#{article.id}" %>
+    <%= "#{article.view_count.to_s} visualizações" %>
     </li>
   <% end %>
 </ul>

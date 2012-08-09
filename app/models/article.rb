@@ -21,4 +21,12 @@ class Article < ActiveRecord::Base
     end
   end
 
+  def increment_count_view
+    if self.view_count
+      self.view_count += 1
+    else
+      self.view_count = 1
+    end
+  end
+
 end

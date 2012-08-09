@@ -10,6 +10,8 @@ class ArticlesController < ApplicationController
 
     @comment = Comment.new
     @comment.article_id = @article.id
+    @article.increment_count_view
+    @article.save
   end
 
   def new
