@@ -13,3 +13,12 @@
 <% if logged_in? %>
   <%= link_to "new_post", new_article_path, :class => "new_article" %>
 <% end %>
+
+<h3>Top 3 mais vistos</h3>
+<ul>
+  <% Article.top_3.each do |art| %>
+    <li> <%= art.title %>
+    </li>
+  <% end %>
+</ul>  
+

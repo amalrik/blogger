@@ -29,4 +29,8 @@ class Article < ActiveRecord::Base
     end
   end
 
+  def self.top_3
+    Article.order('view_count DESC limit 3')
+  end
+
 end
